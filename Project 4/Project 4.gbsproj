@@ -15179,7 +15179,72 @@
                     "persistent": false,
                     "collisionGroup": "",
                     "symbol": "actor_8",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_IF_FLAGS_COMPARE",
+                            "args": {
+                                "variable": "24",
+                                "flag": 6,
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "The prupose of a \nJapanese garden is to",
+                                                "create the impression\nof a mini landscape.",
+                                                "It makes you feel like\nyou're on a journey.",
+                                                "It directs your view..."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "5574596c-17a8-4f0b-9097-1641940445cf"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        },
+                                        "id": "900a8e68-e405-47b3-92ed-96f4abdfdac8"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        },
+                                        "id": "98a09f63-9e20-4f1c-bafd-d42183017d6e"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "You hear Chris begin to\ntalk, and your mind...",
+                                                "wanders off, falling to \nsaleep................"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "a657d1e4-7ddd-4b99-bfe8-3435b0421727"
+                                    },
+                                    {
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "9734af24-9ca1-4dba-bad2-0010d21d6c28",
+                                            "x": 4,
+                                            "y": 26,
+                                            "direction": "",
+                                            "fadeSpeed": "2"
+                                        },
+                                        "id": "94b2bf64-4aba-4ba4-94d2-5adfbc9a665a"
+                                    }
+                                ]
+                            },
+                            "id": "11d8745a-4a8b-41cf-8a39-0810cf79949d"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -15718,7 +15783,75 @@
                     "persistent": false,
                     "collisionGroup": "",
                     "symbol": "actor_15",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_IF_FLAGS_COMPARE",
+                            "args": {
+                                "variable": "24",
+                                "flag": 7,
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Rocks, trees, bushes,\netc. are all said to have",
+                                                "energies. These\nenergies help direct...",
+                                                "the viewer's eyes. "
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "07618528-ff81-4720-a53a-25fa3f7b44d0"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        },
+                                        "id": "b33acf39-d6e0-486d-a86a-c0f9ed019afe"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        },
+                                        "id": "216ddb52-c7ed-4cd7-930b-8b5b7eab10ed"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Half way through the\nlecture, your eyes feel",
+                                                "heavy. You begin to nod\noff. Fighting the urge... ",
+                                                "to fall alseep, you take \na swig from your bottle.",
+                                                "Mmmm... Guacamole Gamer\nFart 9000. Your",
+                                                "favorite. However your\nefforts are in vain.",
+                                                "You succumb to your\ndesire to sleep..............."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "483dc7ae-2ea1-4a04-b113-31797d21d25c"
+                                    },
+                                    {
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "d9c2d368-52d6-43ed-b22c-050213b05a1b",
+                                            "x": 6,
+                                            "y": 5,
+                                            "direction": "",
+                                            "fadeSpeed": "2"
+                                        },
+                                        "id": "d1befa02-2685-407c-951a-30d6b5443dac"
+                                    }
+                                ]
+                            },
+                            "id": "8f24bb5f-f178-42e4-b353-0cd30a1f2eea"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -51000,7 +51133,7 @@
             "symbol": "sound_gbstudio_sfx_sav",
             "filename": "Tronimal_Sound_Effects.sav",
             "type": "fxhammer",
-            "inode": "7881299349334713",
+            "inode": "844424931057236",
             "_v": 1661702554742
         }
     ],
@@ -51209,9 +51342,19 @@
             "symbol": "var_squirrelposx"
         },
         {
+            "id": "24",
+            "name": "AbilitiesUnlocked",
+            "symbol": "var_abilitiesunlocked"
+        },
+        {
             "id": "25",
             "name": "SquirrelPosY",
             "symbol": "var_squirrelposy"
+        },
+        {
+            "id": "26",
+            "name": "PlayerHealth",
+            "symbol": "var_playerhealth"
         },
         {
             "id": "871ea302-1cc1-463c-b9d7-530aac38fe81__L0",
@@ -51256,16 +51399,6 @@
             "id": "9951ca38-d610-4f34-b74e-e6b88a58325d__L0",
             "name": "Local 0",
             "symbol": "var_local_0"
-        },
-        {
-            "id": "24",
-            "name": "AbilitiesUnlocked",
-            "symbol": "var_abilitiesunlocked"
-        },
-        {
-            "id": "26",
-            "name": "PlayerHealth",
-            "symbol": "var_playerhealth"
         }
     ],
     "engineFieldValues": [
@@ -51285,9 +51418,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 183,
-        "worldScrollY": 888,
-        "zoom": 125,
+        "worldScrollX": 0,
+        "worldScrollY": 1007,
+        "zoom": 100,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -51315,9 +51448,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            203,
-            203,
-            550
+            201,
+            201,
+            546
         ],
         "showNavigator": true,
         "defaultFontId": "948c169c-8e4b-491c-a5f0-66898bbf45d9",
