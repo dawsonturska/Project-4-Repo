@@ -2800,7 +2800,7 @@
             "id": "890256a4-3efa-493f-a436-7cefe906cf29",
             "symbol": "scene_18",
             "x": 1016.8190336681548,
-            "y": 1191.0476190476184,
+            "y": 1189.9047619047612,
             "actors": [
                 {
                     "name": "",
@@ -2815,7 +2815,32 @@
                     "persistent": false,
                     "collisionGroup": "",
                     "symbol": "actor_10",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "You have acquired\nthe Mythic Bow of \na Thousand Failed \nExams!!!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "ac224a5b-7d65-471a-a896-0d5da910a596"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "b236fbf9-8fe0-4ed5-9a75-97ce06969db2"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "98ff6aa5-9fbb-4af3-aa10-a5b220b0b656"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -2838,7 +2863,32 @@
                     "persistent": false,
                     "collisionGroup": "",
                     "symbol": "actor_11",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "You have gained 1 \nMythical Arrow!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "2b483b15-eae8-416f-b26c-fd25436fbc8d"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "946cc239-b6a4-4f83-8443-d8cfdf7f625a"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "be0daf55-fa48-4c58-b025-c248b965afdc"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -2861,7 +2911,32 @@
                     "persistent": false,
                     "collisionGroup": "",
                     "symbol": "actor_12",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Health Potion +1!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "f24944ac-876a-4b0a-9ae7-451891d74df5"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "5d2d0a93-a5d0-4ec0-bd1a-c7be3921893c"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "dbacb85a-b4f3-489d-ad03-d2791ffb6171"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -2884,7 +2959,32 @@
                     "persistent": false,
                     "collisionGroup": "",
                     "symbol": "actor_13",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Ahhh... this would have\nmade things way easier!\n\n*Shield added to \ninventory*"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "4d225854-95ed-4f0f-b1f1-8ace72047de7"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "0517b1fa-41e3-493b-ab81-eacfd0613291"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "4e436563-ea1b-46ab-86de-0dc827256bbe"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -2907,7 +3007,32 @@
                     "persistent": false,
                     "collisionGroup": "",
                     "symbol": "actor_14",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "This is a weird\nrequirement for class...\nbut it'll have to do!\n\n*Capstone Sword\nadded to inventory*"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "d8b7ff5d-11d6-4546-a495-44b59b820a6f"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "716a76f1-0f44-4a7a-ad17-45f6159ee74e"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "780a3a75-2070-455b-9efb-9a40692a6346"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -3257,7 +3382,56 @@
             "symbol": "scene_20",
             "x": 864.9904436383929,
             "y": 1167.904761904762,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "45967051-0037-444d-84e4-9a2cb98381d0",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_19",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "You have gained 1 \nMythical Arrow!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "f8e3224b-770e-4140-a586-2821f21b7760"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "130ac696-3af9-4fbf-aced-8534774d4c87"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "cca3d2ff-de6b-45cf-8e18-dd6971a0867a"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "58267d49-afc5-46ec-b0ba-a1e3d85931a2",
+                    "x": 1,
+                    "y": 9
+                }
+            ],
             "triggers": [
                 {
                     "name": "",
@@ -3726,7 +3900,56 @@
             "symbol": "scene_7",
             "x": 677.148459383753,
             "y": 1147.8924451128103,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "662dfecf-7969-4223-82cf-613e1795ed68",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_18",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Health Potion +1!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "9726406f-00de-4216-b039-5b18f1d1303f"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "85eb8b8f-ce00-4a71-b297-5179b05b4844"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "8430c296-91ea-49c6-815e-6f6d1952ad73"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "41369d7e-98de-42ab-b783-1757b4fce5ba",
+                    "x": 10,
+                    "y": 12
+                }
+            ],
             "triggers": [
                 {
                     "name": "",
@@ -4409,12 +4632,239 @@
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
-                    "collisionGroup": "",
+                    "collisionGroup": "1",
                     "symbol": "actor_9",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "player"
+                            },
+                            "id": "5d2a2efb-509c-4b06-ba4e-b4058c8138c4"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.2,
+                                "frames": 30
+                            },
+                            "id": "31dd89a6-89c8-424b-b23d-3033da05cc81"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_SHOW",
+                            "args": {
+                                "actorId": "player"
+                            },
+                            "id": "8016c966-9e18-4c70-b2af-9a074217cea0"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.2,
+                                "frames": 30
+                            },
+                            "id": "90583ca5-3755-46fd-b6fe-183f0873f37d"
+                        }
+                    ],
                     "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
+                    "updateScript": [
+                        {
+                            "command": "EVENT_ACTOR_GET_POSITION",
+                            "args": {
+                                "actorId": "player",
+                                "vectorX": "21",
+                                "vectorY": "22"
+                            },
+                            "id": "fdc57bb7-f3ae-4799-bd75-9d9fb6c4b2c4"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_GET_POSITION",
+                            "args": {
+                                "actorId": "$self$",
+                                "vectorX": "23",
+                                "vectorY": "25"
+                            },
+                            "id": "b6b9a8d7-167d-40e4-b62b-318df4737419"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "Move Left",
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_IF_VALUE_COMPARE",
+                                        "args": {
+                                            "vectorX": "21",
+                                            "operator": "<",
+                                            "vectorY": "23",
+                                            "__collapseElse": true,
+                                            "__disableElse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": -1,
+                                                        "y": 0,
+                                                        "moveType": "horizontal",
+                                                        "useCollisions": true
+                                                    },
+                                                    "id": "2d729f25-b537-43df-a49f-6dbcd3dee249"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "568b4b99-b39d-461d-988f-df73bcfbbdea"
+                                    }
+                                ]
+                            },
+                            "id": "5f43651f-2a13-46f0-ba67-eb3676adf8ee"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "Move Right",
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_IF_VALUE_COMPARE",
+                                        "args": {
+                                            "vectorX": "21",
+                                            "operator": ">",
+                                            "vectorY": "23",
+                                            "__collapseElse": true,
+                                            "__disableElse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": 1,
+                                                        "y": 0,
+                                                        "moveType": "horizontal",
+                                                        "useCollisions": true
+                                                    },
+                                                    "id": "f5a3634b-7bd7-4d1e-a5e2-7ca86ce2970d"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "14224230-748b-4c38-966d-1ae9df392643"
+                                    }
+                                ]
+                            },
+                            "id": "5390f1c9-2825-4168-b284-cee4dd6aa121"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "Move Up",
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_IF_VALUE_COMPARE",
+                                        "args": {
+                                            "vectorX": "22",
+                                            "operator": "<",
+                                            "vectorY": "25",
+                                            "__collapseElse": true,
+                                            "__disableElse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": 0,
+                                                        "y": -1,
+                                                        "moveType": "horizontal",
+                                                        "useCollisions": true
+                                                    },
+                                                    "id": "fdbea32f-80a2-4a84-8ac1-80a74b73335b"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "1b87ea13-1bfa-404b-881a-2dc0880244f1"
+                                    }
+                                ]
+                            },
+                            "id": "164029f4-a0df-4552-b691-da672400af0c"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "Move Down",
+                                "__collapse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_IF_VALUE_COMPARE",
+                                        "args": {
+                                            "vectorX": "22",
+                                            "operator": ">",
+                                            "vectorY": "25",
+                                            "__collapseElse": true,
+                                            "__disableElse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": 0,
+                                                        "y": 1,
+                                                        "moveType": "horizontal",
+                                                        "useCollisions": true
+                                                    },
+                                                    "id": "f36bd0ed-35eb-4382-b0d7-a0239c436d4b"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "6aaf7c29-30c8-4081-8ae4-7946f16debe4"
+                                    }
+                                ]
+                            },
+                            "id": "0724b6a8-c614-4628-bf3a-64328b9e3b97"
+                        }
+                    ],
+                    "hit1Script": [
+                        {
+                            "command": "EVENT_SOUND_PLAY_EFFECT",
+                            "args": {
+                                "type": "crash",
+                                "priority": "medium",
+                                "pitch": 4,
+                                "frequency": 200,
+                                "duration": 0.2,
+                                "wait": false,
+                                "effect": 0
+                            },
+                            "id": "23c3471e-eaba-4a8e-ba91-68596f7f5255"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "69e9084f-959c-40bf-8051-489d04174cee"
+                        }
+                    ],
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "bed9f44c-8820-43c9-9034-eb8449886df7",
@@ -5413,7 +5863,104 @@
             "symbol": "scene_10",
             "x": 972.6920092622668,
             "y": 782.5488620681638,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "45967051-0037-444d-84e4-9a2cb98381d0",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_16",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "You have gained 1 \nMythical Arrow!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "cf44a16c-fa01-4e98-86ef-3ac3494198ea"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "46d9a159-18bf-49ce-972c-1629c4cc6723"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "5f76b49b-98de-4486-9e85-365c885b96e9"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "25e6f204-1015-4432-90b2-e8ff3be177af",
+                    "x": 6,
+                    "y": 24
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "662dfecf-7969-4223-82cf-613e1795ed68",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_17",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Health Potion +1!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "cd1d2a6c-85ec-4518-8d61-46a8218ba905"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "c7256324-76bc-41ae-8fef-9323f0738df5"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "f8370e94-82db-466d-a64d-233a8e1789ab"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "bd940a2f-e7c6-4c1e-99bf-c49d51ea7e6f",
+                    "x": 3,
+                    "y": 24
+                }
+            ],
             "triggers": [
                 {
                     "name": "",
@@ -8255,6 +8802,198 @@
                     "id": "b1663675-d9d9-40c6-a868-f417105971b7",
                     "x": 31,
                     "y": 31
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "45967051-0037-444d-84e4-9a2cb98381d0",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_20",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "You have gained 1 \nMythical Arrow!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "7a103e26-52a7-4d60-a0cf-00aae07e2d6e"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "0c7997d7-a6e9-4169-9752-a2ad2fc4d3da"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "7a157eb0-3940-435b-8c5d-eb7988c90910"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "af596caf-cb46-45f5-8b28-f974309e8a2b",
+                    "x": 15,
+                    "y": 15
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "662dfecf-7969-4223-82cf-613e1795ed68",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_21",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Health Potion +1!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "36e501ba-6f6e-411a-b91b-86419f289213"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "28716f83-896e-41a0-90cc-046893515446"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "fefe8389-899b-4eae-8c87-56572dc88d27"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "4878d2e1-d7a4-45c7-a26e-aea92b8a1bb9",
+                    "x": 16,
+                    "y": 24
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "662dfecf-7969-4223-82cf-613e1795ed68",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_22",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Health Potion +1!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "09c74aa3-0d64-4e7e-8572-da82e437c465"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "718a9b1d-f2bd-42ae-a68e-e7312cff4d58"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "50e753f6-873c-42f9-9302-740b7de2fd75"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "efc03f02-b923-4d33-aec4-3b1aa401a081",
+                    "x": 21,
+                    "y": 4
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "45967051-0037-444d-84e4-9a2cb98381d0",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_23",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "You have gained 1 \nMythical Arrow!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "45e7f8cf-d210-4874-b536-60e57cd5d88f"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "866aede5-d635-4eee-8ce0-65bcab064f30"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "9521c929-aae9-412b-bf56-ba5e6dea7e46"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "317aa4c6-95e9-4838-b3f6-9e6161ae2337",
+                    "x": 17,
+                    "y": 4
                 }
             ],
             "triggers": [
@@ -16366,6 +17105,346 @@
                     "id": "1ad787c0-8cb1-41f2-9abf-8470ce414331",
                     "x": 9,
                     "y": 7
+                },
+                {
+                    "name": "Enemy01",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "9ac74fce-8b01-4f8f-8f49-f52a6dac7aed",
+                    "direction": "right",
+                    "moveSpeed": 0.5,
+                    "animSpeed": 31,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "2",
+                    "id": "1aee6773-89e0-4fdc-88f9-c6988b8c7471",
+                    "x": 10,
+                    "y": 7,
+                    "movementType": "randomWalk",
+                    "script": [],
+                    "spriteType": "actor",
+                    "updateScript": [
+                        {
+                            "id": "4538ad12-2a34-4099-b041-b504661595e7",
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 1,
+                                "__comment": true
+                            }
+                        },
+                        {
+                            "id": "a4d77520-f59f-439b-a4ab-cf83256c5a81",
+                            "command": "EVENT_VARIABLE_MATH",
+                            "args": {
+                                "vectorX": "T0",
+                                "operation": "set",
+                                "other": "rnd",
+                                "vectorY": "T0",
+                                "value": "1",
+                                "minValue": "0",
+                                "maxValue": 5
+                            }
+                        },
+                        {
+                            "id": "b71382ea-7859-4f23-8811-9e896c3ec5d1",
+                            "command": "EVENT_SWITCH",
+                            "args": {
+                                "variable": "T0",
+                                "choices": 4,
+                                "__collapseCase0": false,
+                                "value0": 1,
+                                "__collapseCase1": false,
+                                "value1": 2,
+                                "__collapseCase2": false,
+                                "value2": 3,
+                                "__collapseCase3": false,
+                                "value3": 4,
+                                "__collapseCase4": false,
+                                "value4": 5,
+                                "__collapseCase5": false,
+                                "value5": 6,
+                                "__collapseCase6": false,
+                                "value6": 7,
+                                "__collapseCase7": false,
+                                "value7": 8,
+                                "__collapseCase8": false,
+                                "value8": 9,
+                                "__collapseCase9": false,
+                                "value9": 10,
+                                "__collapseCase10": false,
+                                "value10": 11,
+                                "__collapseCase11": false,
+                                "value11": 12,
+                                "__collapseCase12": false,
+                                "value12": 13,
+                                "__collapseCase13": false,
+                                "value13": 14,
+                                "__collapseCase14": false,
+                                "value14": 15,
+                                "__collapseCase15": false,
+                                "value15": 16,
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true0": [
+                                    {
+                                        "id": "0211f6b0-997f-4076-9ab1-8e0632be0788",
+                                        "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": 0,
+                                            "y": 4,
+                                            "useCollisions": true,
+                                            "verticalFirst": false,
+                                            "__collapse": false
+                                        }
+                                    },
+                                    {
+                                        "command": "EVENT_LAUNCH_PROJECTILE",
+                                        "args": {
+                                            "spriteSheetId": "5d1b5da7-4228-4a4b-9b27-8ca159ba02fc",
+                                            "spriteStateId": "",
+                                            "actorId": "75801f7d-f214-4a1b-a073-f39171b4ee0a",
+                                            "x": 0,
+                                            "y": 0,
+                                            "otherActorId": "$self$",
+                                            "direction": "down",
+                                            "angle": 0,
+                                            "angleVariable": "L0",
+                                            "directionType": "direction",
+                                            "initialOffset": 0,
+                                            "speed": 2,
+                                            "animSpeed": 15,
+                                            "lifeTime": 1,
+                                            "loopAnim": true,
+                                            "destroyOnHit": true,
+                                            "collisionGroup": "2",
+                                            "collisionMask": [
+                                                "player"
+                                            ]
+                                        },
+                                        "id": "603c04d7-79ee-4b44-b84e-8285b82a8293"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "id": "30294bc4-0cf7-4399-ad65-2b98fd7c1053",
+                                        "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": 0,
+                                            "y": -4,
+                                            "useCollisions": true,
+                                            "verticalFirst": false,
+                                            "__collapse": false
+                                        }
+                                    },
+                                    {
+                                        "command": "EVENT_LAUNCH_PROJECTILE",
+                                        "args": {
+                                            "spriteSheetId": "5d1b5da7-4228-4a4b-9b27-8ca159ba02fc",
+                                            "spriteStateId": "",
+                                            "actorId": "75801f7d-f214-4a1b-a073-f39171b4ee0a",
+                                            "x": 0,
+                                            "y": 0,
+                                            "otherActorId": "$self$",
+                                            "direction": "up",
+                                            "angle": 0,
+                                            "angleVariable": "L0",
+                                            "directionType": "direction",
+                                            "initialOffset": 0,
+                                            "speed": 2,
+                                            "animSpeed": 15,
+                                            "lifeTime": 1,
+                                            "loopAnim": true,
+                                            "destroyOnHit": true,
+                                            "collisionGroup": "2",
+                                            "collisionMask": [
+                                                "player"
+                                            ]
+                                        },
+                                        "id": "58b8b752-6916-44b3-b001-10bbd9e53d43"
+                                    }
+                                ],
+                                "true2": [
+                                    {
+                                        "id": "a0b7e00a-6c1f-4f33-8faa-93e0e0fd4410",
+                                        "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": -4,
+                                            "y": 0,
+                                            "useCollisions": true,
+                                            "verticalFirst": false,
+                                            "__collapse": false
+                                        }
+                                    },
+                                    {
+                                        "command": "EVENT_LAUNCH_PROJECTILE",
+                                        "args": {
+                                            "spriteSheetId": "5d1b5da7-4228-4a4b-9b27-8ca159ba02fc",
+                                            "spriteStateId": "",
+                                            "actorId": "75801f7d-f214-4a1b-a073-f39171b4ee0a",
+                                            "x": 0,
+                                            "y": 0,
+                                            "otherActorId": "$self$",
+                                            "direction": "left",
+                                            "angle": 0,
+                                            "angleVariable": "L0",
+                                            "directionType": "direction",
+                                            "initialOffset": 0,
+                                            "speed": 2,
+                                            "animSpeed": 15,
+                                            "lifeTime": 1,
+                                            "loopAnim": true,
+                                            "destroyOnHit": true,
+                                            "collisionGroup": "2",
+                                            "collisionMask": [
+                                                "player"
+                                            ]
+                                        },
+                                        "id": "bcd4179e-86f0-4fb8-aa52-39a558f282ef"
+                                    }
+                                ],
+                                "true3": [
+                                    {
+                                        "id": "73a443bd-8d0a-4091-bc34-89ae64e0a100",
+                                        "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": 4,
+                                            "y": 0,
+                                            "useCollisions": true,
+                                            "verticalFirst": false,
+                                            "__collapse": false
+                                        }
+                                    },
+                                    {
+                                        "command": "EVENT_LAUNCH_PROJECTILE",
+                                        "args": {
+                                            "spriteSheetId": "5d1b5da7-4228-4a4b-9b27-8ca159ba02fc",
+                                            "spriteStateId": "",
+                                            "actorId": "75801f7d-f214-4a1b-a073-f39171b4ee0a",
+                                            "x": 0,
+                                            "y": 0,
+                                            "otherActorId": "$self$",
+                                            "direction": "right",
+                                            "angle": 0,
+                                            "angleVariable": "L0",
+                                            "directionType": "direction",
+                                            "initialOffset": 0,
+                                            "speed": 2,
+                                            "animSpeed": 15,
+                                            "lifeTime": 1,
+                                            "loopAnim": true,
+                                            "destroyOnHit": true,
+                                            "collisionGroup": "2",
+                                            "collisionMask": [
+                                                "player"
+                                            ]
+                                        },
+                                        "id": "f5173388-2df6-4d2b-9a7b-76718cc12140"
+                                    }
+                                ],
+                                "true4": [],
+                                "true5": [],
+                                "true6": [],
+                                "true7": [],
+                                "true8": [],
+                                "true9": [],
+                                "true10": [],
+                                "true11": [],
+                                "true12": [],
+                                "true13": [],
+                                "true14": [],
+                                "true15": [],
+                                "false": [
+                                    {
+                                        "id": "b4180742-fd13-4da4-9ec2-3cee07e84c76",
+                                        "command": "EVENT_WAIT",
+                                        "args": {
+                                            "time": 0.5
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "startScript": [],
+                    "hit1Script": [
+                        {
+                            "command": "EVENT_ACTOR_STOP_UPDATE",
+                            "args": {
+                                "actorId": "75801f7d-f214-4a1b-a073-f39171b4ee0a"
+                            },
+                            "id": "b4640954-0988-476b-8661-20da9840305f"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+                            "args": {
+                                "actorId": "75801f7d-f214-4a1b-a073-f39171b4ee0a"
+                            },
+                            "id": "ea82f12e-e316-4942-8813-dbe2da5a164d"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_SET_STATE",
+                            "args": {
+                                "actorId": "75801f7d-f214-4a1b-a073-f39171b4ee0a",
+                                "spriteStateId": "Death Effect"
+                            },
+                            "id": "0ea35ce0-db36-4577-b03f-f953b96a0bdb"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                            "args": {
+                                "actorId": "75801f7d-f214-4a1b-a073-f39171b4ee0a",
+                                "speed": 31
+                            },
+                            "id": "4d940261-1ad5-4c61-9702-8b1ff4c31554"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.3,
+                                "frames": 30
+                            },
+                            "id": "6e85aad8-78e9-486c-a568-36f62f4a24f2"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "75801f7d-f214-4a1b-a073-f39171b4ee0a"
+                            },
+                            "id": "a0dc33a0-e774-4f9c-9fb6-19d71a6e5502"
+                        },
+                        {
+                            "command": "EVENT_ADD_FLAGS",
+                            "args": {
+                                "variable": "24",
+                                "flag1": true,
+                                "flag2": false,
+                                "flag3": false,
+                                "flag4": false,
+                                "flag5": false,
+                                "flag6": false,
+                                "flag7": false,
+                                "flag8": false,
+                                "flag9": false,
+                                "flag10": false,
+                                "flag11": false,
+                                "flag12": false,
+                                "flag13": false,
+                                "flag14": false,
+                                "flag15": false,
+                                "flag16": false
+                            },
+                            "id": "b990e369-fddf-439a-af88-81f2b2d696b0"
+                        }
+                    ],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "symbol": "actor_15"
                 }
             ],
             "triggers": [
@@ -49595,7 +50674,7 @@
             "symbol": "sound_gbstudio_sfx_sav",
             "filename": "Tronimal_Sound_Effects.sav",
             "type": "fxhammer",
-            "inode": "7881299349334713",
+            "inode": "1688849860774352",
             "_v": 1661702554742
         }
     ],
@@ -49831,6 +50910,26 @@
             "id": "9951ca38-d610-4f34-b74e-e6b88a58325d__L0",
             "name": "Local 0",
             "symbol": "var_local_0"
+        },
+        {
+            "id": "21",
+            "name": "PlayerPosX",
+            "symbol": "var_playerposx"
+        },
+        {
+            "id": "22",
+            "name": "PlayerPosY",
+            "symbol": "var_playerposy"
+        },
+        {
+            "id": "23",
+            "name": "SquirrelPosX",
+            "symbol": "var_squirrelposx"
+        },
+        {
+            "id": "25",
+            "name": "SquirrelPosY",
+            "symbol": "var_squirrelposy"
         }
     ],
     "engineFieldValues": [
@@ -49850,9 +50949,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 489,
-        "worldScrollY": 298,
-        "zoom": 75,
+        "worldScrollX": 3072,
+        "worldScrollY": 2726,
+        "zoom": 425,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -49880,9 +50979,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            149,
-            149,
-            402
+            202,
+            202,
+            544
         ],
         "showNavigator": true,
         "defaultFontId": "948c169c-8e4b-491c-a5f0-66898bbf45d9",
